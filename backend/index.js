@@ -5,6 +5,9 @@ const cookieParser = require("cookie-parser");
 
 const userRoute = require("./routers/userRoute");
 const courseRoute = require("./routers/courseRoute");
+const mediaRoute = require("./routers/mediaRoute");
+const progressRoute = require("./routers/courseProgressRoute");
+const purchaseRoute = require("./routers/purchaseCourseRoute");
 const connectDb = require("./database/connectDb");
 
 dotenv.config({});
@@ -25,6 +28,9 @@ app.use(
 
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/course", courseRoute);
+app.use("/api/v1/media", mediaRoute);
+app.use("/api/v1/progress", progressRoute);
+app.use("/api/v1/purchase", purchaseRoute);
 
 app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);

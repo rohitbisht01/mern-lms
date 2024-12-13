@@ -1,10 +1,10 @@
-# Learning Management System (LMS)
+## Learning Management System (LMS)
 
-## Description
+### Description
 
 A MERN stack application inspired by Udemy and Coursera, providing a platform for creating, sharing, and consuming educational content.
 
-## Key Features
+### Key Features
 
 - User Authentication and Authorization
 - Course Creation and Management
@@ -14,7 +14,7 @@ A MERN stack application inspired by Udemy and Coursera, providing a platform fo
 - Progress Tracking
 - Search and Filter Functionality
 
-## Tech Stack
+### Tech Stack
 
 - **Frontend**: React.js, Tailwind CSS, Redux Toolkit
 - **Backend**: Node.js, Express.js
